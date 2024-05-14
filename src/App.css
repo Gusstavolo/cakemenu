@@ -14,13 +14,13 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    background-color: #f3d1d7;
 
   }
   .d3_body_Main {
     width: 100vw;
-    height: 35vh;
-    background: url("./img/telass.png") no-repeat;
+    height: 40vh;
+    background: url("./img/TELA3D500PX.png") no-repeat;
     background-size: 100%;
   }
 
