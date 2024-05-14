@@ -3,10 +3,19 @@
 
 @media screen and (max-width: 440px) {
   header {
-    width: 100vw;
-    height: 21.5vh;
-    background-image: url("./img/cidaliabanner.png");
+    width: 380px;
+    height: 170px;
+    background: url("./img/cidaliabanner.png") no-repeat;
     background-size: 100%;
-    background-position: 0px -50px;
+    background-position: 0px -23px;
   }
+  .body_Main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+
+  }
+
 }
