@@ -45,6 +45,7 @@
   }
   .body_Main {
     display: flex;
+    
     flex-direction: column;
     width: 100vw;
     height: 100vh;
@@ -53,11 +54,12 @@
   }
   .d3_body_Main {
     width: 100vw;
-    height: 31vh;
+    height: 210px;
     background: url("./img/TELA3D500PX.png") no-repeat;
     background-size: 100%;
   }
   .config_Main{
+    display: flex;
     width: 100vw;
     height: 40vh;
     background-color: #d57692;
