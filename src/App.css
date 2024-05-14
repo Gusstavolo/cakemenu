@@ -4,9 +4,9 @@
 @media screen and (max-width: 440px) {
   header {
     width: 100vw;
-    height: 23vh;
+    height: 21.5vh;
     background-image: url("./img/cidaliabanner.png");
     background-size: 100%;
-    background-position: 0px -40px;
+    background-position: 0px -50px;
   }
 }
