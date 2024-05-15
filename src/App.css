@@ -1,13 +1,14 @@
 
 @media screen and (max-width: 1440px) {
   .App {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f3d1d7;
   }
   header {
-    width: 90vw;
+    width: 100vw;
     height: 420px;
     background: url("./img/cidaliabanner.png") no-repeat;
     background-size: 100%;
@@ -16,19 +17,19 @@
   .body_Main {
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
     height: 100%;
     background-color: #f3d1d7;
 
   }
   .d3_body_Main {
-    width: 90vw;
+    width: 100vw;
     height: 60vh;
     background: url("./img/TELA3D500PX.png") no-repeat;
     background-size: 100%;
   }
   .config_Main{
-    width: 90vw;
+    width: 100vw;
     height: 70vh;
     background-color: #d57692;
   }
