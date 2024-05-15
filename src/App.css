@@ -44,6 +44,13 @@
     background-size: 100%;
     background-position: 0px -23px;
   }
+  .CanvasS{
+    position: absolute;
+    background-color: black;
+    z-index: 0;
+    width: 100vw;
+    height: 210px;
+  }
   .body_Main {
     display: flex;
     
@@ -56,11 +63,13 @@
   .d3_body_Main {
     width: 100vw;
     height: 210px;
+    z-index: 1;
     background: url("./img/TELA3D500PX.png") no-repeat;
     background-size: 100%;
   }
   .config_Main{
     display: flex;
+    z-index: 1;
     width: 100vw;
     height: 40vh;
     background-color: #d57692;
