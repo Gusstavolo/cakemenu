@@ -4,15 +4,16 @@ import { useGLTF } from '@react-three/drei'
 import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
 
 
+
 export function Model(props) {
   const { nodes, materials } = useGLTF('./models/bolo.glb')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.BASE1BOLO.geometry} material={materials.BOLOBAE1} scale={[1.08, 0.527, 1.08]} />
+      <mesh geometry={nodes.BASE1BOLO.geometry} material-color="hotpink" material={materials.BOLOBAE1} scale={[1.08, 0.527, 1.08]} />
       <mesh geometry={nodes.RECHEIO001.geometry} material={materials.RECHEIO1} scale={[1.08, 0.527, 1.08]} />
       <mesh geometry={nodes.RECHEIO.geometry} material={materials.RECHEIO1} scale={[1.08, 0.527, 1.08]} />
       <mesh geometry={nodes.COBERTURA1.geometry} material={materials.Cobertura} scale={[1.098, 0.536, 1.098]} />
-      <mesh geometry={nodes.BASE2BOLO.geometry} material={materials.BOLOBAE1} scale={[0.765, 0.373, 0.765]} />
+      <mesh geometry={nodes.BASE2BOLO.geometry} material={materials.BOLOBAE1} scale={[0.765, 0.373, 0.765]} position={[0,0,0]}/>
       <mesh geometry={nodes.RECHEIO2001.geometry} material={materials.RECHEIO1} scale={[0.765, 0.373, 0.765]} />
       <mesh geometry={nodes.RECHEIO2.geometry} material={materials.RECHEIO1} scale={[0.765, 0.373, 0.765]} />
       <mesh geometry={nodes.COBERTURA2.geometry} material={materials.Cobertura} scale={[0.777, 0.38, 0.777]} />
@@ -34,8 +35,8 @@ export const Experience = () => {
     return (
             <> 
             <ambientLight intensity={1}></ambientLight>
-            
-            <Model></Model>
+
+            <Model rotation = {[0,3,0]}></Model>
             </>
             
     )
