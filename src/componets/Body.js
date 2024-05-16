@@ -1,6 +1,6 @@
 import '../App.css';
 import { Canvas } from '@react-three/fiber';
-
+import { Experience } from './Experience';
 import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
 
 export function Body() {
@@ -16,8 +16,8 @@ export function Body() {
             </div>
             <div className='CanvasS'>
                          <Canvas shadows async>
-                          <PerspectiveCamera makeDefault fov={65} near={0.5} far={100} position={[4, 0.2, 0]} />
-                    
+                            <PerspectiveCamera makeDefault fov={65} near={0.5} far={100} position={[4, 0.2, 0]} />
+                            <Experience></Experience>
 
                          </Canvas>
                     </div>

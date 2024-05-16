@@ -76,3 +76,15 @@
   }
 
 }
+@media screen and (max-width: 360px) {
+
+  .d3_body_Main {
+    width: 100vw;
+    height: 200px;
+    z-index: 1;
+    background: url("./img/TELA3D500PX.png") no-repeat;
+    background-size: 100%;
+  }
+
+
+}
