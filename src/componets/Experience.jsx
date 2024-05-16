@@ -36,7 +36,7 @@ export const Experience = () => {
             <> 
             <ambientLight intensity={1}></ambientLight>
 
-            <Model rotation = {[0,3,0]}></Model>
+            <Model rotation = {[0.4,3,0] }  autoRotate={true}></Model>
             </>
             
     )

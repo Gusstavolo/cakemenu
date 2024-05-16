@@ -15,8 +15,8 @@ export function Body() {
             </div>
                 <div className='CanvasS'>
                          <Canvas shadows>
-                         <PerspectiveCamera makeDefault  position={[0, 1.2, 3.8]} />
-  
+                         <PerspectiveCamera makeDefault  position={[0, 1.1, 4.5]} />
+                         <OrbitControls  autoRotate={true}></OrbitControls>
                         
                             <Experience></Experience>
                             
