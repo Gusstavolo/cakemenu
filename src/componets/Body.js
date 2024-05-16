@@ -14,11 +14,10 @@ export function Body() {
                      
                
             </div>
-            <div className='CanvasS'>
+                <div className='CanvasS'>
                          <Canvas shadows async>
-                            <PerspectiveCamera makeDefault fov={65} near={0.5} far={100} position={[4, 0.2, 0]} />
                             <Experience></Experience>
-
+                            <perspectiveCamera makeDefault fov={65} near={0.5} far={100} position={[4, 0.2, 0]} ></perspectiveCamera>
                          </Canvas>
                     </div>
             <div className='config_Main'>

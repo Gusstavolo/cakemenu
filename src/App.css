@@ -7,6 +7,17 @@
     align-items: center;
     background-color: #f3d1d7;
   }
+  .CanvasS{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 390px;
+  }
   header {
     width: 100vw;
     height: 420px;
@@ -45,12 +56,17 @@
     background-position: 0px -23px;
   }
   .CanvasS{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
     position: absolute;
-    background-color: black;
     z-index: 0;
     width: 100vw;
     height: 220px;
   }
+
   .body_Main {
     display: flex;
     
@@ -87,4 +103,7 @@
   }
 
 
+}
+test {
+  background: url("../public/Componets/bolo.glb");
 }
